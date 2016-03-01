@@ -1,6 +1,6 @@
 ##################################################
 # RPNCalculator is a module that allows you to
-# Do calculations in RPN by calling
+# do basic calculations in RPN by calling
 # RPNCalculator.start_calculator
 ##################################################
 module RPNCalculator
