@@ -4,7 +4,7 @@ begin
   # start calculator
   RPNCalculator.start_calculator
 # catch interrupt
-rescue SystemExit, Interrupt
+rescue Interrupt
   STDERR.puts "Interrupt called\nExiting..."
 # catch other errors
 rescue => e

@@ -7,7 +7,7 @@ module RPNCalculator
   # supported operations of the calculator as symbols as to pass to send
   SUPPORTED_OPERATORS = [:+, :-, :*, :/]
   # stack that holds values to perform operations on
-  @value_stack = []
+  @@value_stack = []
 
   ################################################
   # self.start_calculator
